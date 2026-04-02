@@ -148,6 +148,13 @@ nav, section, footer, .mobile-menu {
   font-size: 0.9rem;
   color: #fff;
 }
+.brand-image {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid var(--c-border);
+}
 .brand-name {
   font-family: var(--font-display);
   font-size: 1.1rem;
@@ -272,10 +279,10 @@ nav, section, footer, .mobile-menu {
   margin-bottom: 1.5rem;
 }
 .photo-ring {
-  width: 140px;
-  height: 140px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
-  padding: 3px;
+  padding: 4px;
   background: var(--grad-main);
   margin: 0 auto;
   position: relative;
@@ -285,7 +292,9 @@ nav, section, footer, .mobile-menu {
   height: 100%;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid var(--c-bg);
+  object-position: top;
+  border: 4px solid var(--c-bg);
+  background-color: #fff;
 }
 .photo-placeholder {
   width: 100%;
@@ -543,7 +552,7 @@ nav, section, footer, .mobile-menu {
   gap: 1.5rem;
   align-items: start;
 }
-.about-text { }
+
 .about-lead {
   font-family: var(--font-display);
   font-size: 1.25rem;
@@ -682,7 +691,7 @@ nav, section, footer, .mobile-menu {
 .mini-card p { font-size: 0.87rem; color: var(--c-muted); line-height: 1.55; position: relative; }
 .mini-card em { color: var(--c-primary); }
 
-.teaching-exp { }
+
 .te-header {
   display: flex;
   justify-content: space-between;
@@ -766,7 +775,7 @@ nav, section, footer, .mobile-menu {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.25rem;
 }
-.skill-group { }
+
 .skill-group-icon { font-size: 1.8rem; margin-bottom: 0.75rem; }
 .skill-group h3 {
   font-family: var(--font-display);
